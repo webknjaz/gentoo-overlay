@@ -86,7 +86,7 @@ src_configure(){
 		--without-nscd
 		--with-unicode-lib="glib2"
 		--disable-rpath
-		--enable-silent-rules
+		--disable-silent-rules
 		--sbindir=/usr/sbin
 		--without-samba
 		$(use_enable acl cifs-idmap-plugin)
