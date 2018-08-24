@@ -88,6 +88,9 @@ src_prepare() {
 	default
 	eautoreconf
 	multilib_copy_sources
+
+	# Maybe run it before eautoreconf?
+	epatch_user
 }
 
 src_configure() {
